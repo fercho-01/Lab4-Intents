@@ -13,8 +13,8 @@ public class Main2Activity extends Activity {
         super.onCreate(savedInstanceState);
         if (savedInstanceState == null) {
             // Create a fragment
-            StatusFragment fragment = new StatusFragment();
-            getFragmentManager().beginTransaction().add(android.R.id.content, fragment, fragment.getClass().getSimpleName()).commit();
+            //StatusFragment fragment = new StatusFragment();
+            //getFragmentManager().beginTransaction().add(android.R.id.content, fragment, fragment.getClass().getSimpleName()).commit();
         }
     }
 
